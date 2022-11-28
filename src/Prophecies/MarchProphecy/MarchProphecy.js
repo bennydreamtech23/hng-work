@@ -20,7 +20,7 @@ export default function MarchProphecy() {
             <h1 className="MarchHeader">MARCH MESSAGE</h1>
          </div>
          
-         <div data-aos="zoom-in" className="cards">
+         <div data-aos="flip-right" className="cards">
                {MarchData.map((prophecies)=>{
                  return (
                   <ProphecyCard

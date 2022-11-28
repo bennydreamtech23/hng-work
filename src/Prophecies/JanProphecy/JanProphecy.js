@@ -20,7 +20,7 @@ export default function JanProphecy() {
             <h1 className="JanHeader">JANUARY MESSAGE</h1>
          </div>
          
-         <div data-aos="zoom-in" className="cards">
+         <div data-aos="flip-right" className="cards">
                {JanData.map((prophecies)=>{
                  return (
                   <ProphecyCard

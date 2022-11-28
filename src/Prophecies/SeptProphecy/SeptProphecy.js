@@ -20,7 +20,7 @@ export default function SeptProphecy() {
             <h1 className="SeptHeader">SEPTEMBER MESSAGE</h1>
          </div>
          
-         <div data-aos="zoom-in" className="cards">
+         <div data-aos="flip-right" className="cards">
                {SeptData.map((prophecies)=>{
                  return (
                   <ProphecyCard

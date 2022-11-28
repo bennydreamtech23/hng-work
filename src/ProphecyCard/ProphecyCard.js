@@ -6,14 +6,14 @@ export default function ProphecyCard( { prophecies }) {
   
   return (
     <div className="ProphecyCard" id={id}>
-         <div className="pastorProphecy">
-             <RiDoubleQuotesL className="quoteIcon"/>{prophecy} <RiDoubleQuotesR className="quoteIcon" />
+         <div className="prophecy">
+             <RiDoubleQuotesL className="quote"/>{prophecy} <RiDoubleQuotesR className="quote" />
          </div>
          
          <div className="span"></div>
          <div  className="CardInfo">
-             <img src={image} alt={pastor} className="pastorImage"/>
-             <p className="pastorName">{pastor}</p>
+             <img src={image} alt={pastor} className="image"/>
+             <p className="pastor">{pastor}</p>
          </div>
     </div>
   );

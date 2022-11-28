@@ -20,7 +20,7 @@ export default function AprProphecy() {
             <h1 className="FebHeader">FEBRUARY MESSAGE</h1>
          </div>
          
-         <div data-aos="zoom-in" className="cards">
+         <div data-aos="flip-left" className="cards">
                {FebData.map((prophecies)=>{
                  return (
                   <ProphecyCard

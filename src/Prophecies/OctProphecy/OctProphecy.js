@@ -20,7 +20,7 @@ export default function OctProphecy() {
             <h1 className="OctHeader">OCTOBER MESSAGE</h1>
          </div>
          
-         <div data-aos="zoom-in" className="cards">
+         <div data-aos="flip-left" className="cards">
                {OctData.map((prophecies)=>{
                  return (
                   <ProphecyCard

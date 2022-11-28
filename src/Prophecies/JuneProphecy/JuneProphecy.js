@@ -20,7 +20,7 @@ export default function AprProphecy() {
             <h1 className="JuneHeader">JUNE MESSAGE</h1>
          </div>
          
-         <div data-aos="zoom-in" className="cards">
+         <div data-aos="flip-left" className="cards">
                {JuneData.map((prophecies)=>{
                  return (
                   <ProphecyCard

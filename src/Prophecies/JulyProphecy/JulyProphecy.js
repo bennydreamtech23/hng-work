@@ -20,7 +20,7 @@ export default function JulyProphecy() {
             <h1 className="JulyHeader">JULY MESSAGE</h1>
          </div>
          
-         <div data-aos="zoom-in" className="cards">
+         <div data-aos="flip-left" className="cards">
                {JulyData.map((prophecies)=>{
                  return (
                   <ProphecyCard

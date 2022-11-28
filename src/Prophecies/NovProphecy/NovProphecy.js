@@ -20,7 +20,7 @@ export default function NovProphecy() {
             <h1 className="NovHeader">NOVEMBER MESSAGE</h1>
          </div>
          
-         <div data-aos="zoom-in" className="cards">
+         <div data-aos="flip-right" className="cards">
                {NovData.map((prophecies)=>{
                  return (
                   <ProphecyCard

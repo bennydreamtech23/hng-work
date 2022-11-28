@@ -20,7 +20,7 @@ export default function MayProphecy() {
             <h1 className="MayHeader">MAY MESSAGE</h1>
          </div>
          
-         <div data-aos="zoom-in" className="cards">
+         <div data-aos="flip-right" className="cards">
                {MayData.map((prophecies)=>{
                  return (
                   <ProphecyCard

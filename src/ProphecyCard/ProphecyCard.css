@@ -1,42 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 .ProphecyCard {
-  width: 300px;
-  height: 350px;
-  border-radius: 10px;
+  width: 280px;
+  height: 250px;
+  border-radius: 15px 50px 30px 0px;;
   padding: 20px;
-  margin: auto;
+  margin:auto;
   background: #fff;
--webkit-box-shadow: -8px 5px 5px -3px rgba(53,53,70,1);
--moz-box-shadow: -8px 5px 5px -3px rgba(53,53,70,1);
-box-shadow: -8px 10px 5px -3px rgba(53,53,70,1);
+-webkit-box-shadow: -8px 5px 5px -3px rgba(0,0,0,0.3);
+-moz-box-shadow: -8px 5px 5px -3px rgba(0,0,0, 0.3);
+box-shadow: -8px 10px 5px -3px rgba(0,0,0,0.3);
 }
 
 .CardInfo {
   display: flex;
   flex-direction: row;
   margin-top: 10px;
-  justify-content: flex-end;
+  justify-content:flex-start;
 }
 
-.quoteIcon {
-  color: #203580;
+.quote {
+  color: #7391C8;
   font-size: 20px;
 }
 
-.pastorProphecy  {
+.prophecy{
   font-family: 'Poppins', sans-serif;
   color: #1A1A41;
 }
 
 .span {
-   background: #1A1A41;
-   width: 300px;
+   background: #7391C8;
+   width: 230px;
    height: 2px;
    margin-top: 20px;
 }
 
-.pastorImage {
+.image {
   width: 40px;
   height: 40px;
   margin-top: 8px;
@@ -44,7 +44,7 @@ box-shadow: -8px 10px 5px -3px rgba(53,53,70,1);
   border: 1px dotted #1A1A41;
 }
 
-.pastorName {
+.pastor {
   font-size: 15px;
   margin-left: 15px;
   font-family: 'Poppins', sans-serif;

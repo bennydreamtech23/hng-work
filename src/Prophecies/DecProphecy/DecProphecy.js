@@ -20,7 +20,7 @@ export default function DecProphecy() {
             <h1 className="DecHeader">DECEMBER MESSAGE</h1>
          </div>
          
-         <div data-aos="zoom-in" className="cards">
+         <div data-aos="flip-left" className="cards">
                {DecData.map((prophecies)=>{
                  return (
                   <ProphecyCard

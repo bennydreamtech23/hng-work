@@ -10,6 +10,10 @@ useEffect(() => {
     AOS.refresh();
   });
   
+  const handleMessage = () =>{
+    alert("Thanks for Receiving Message From God Servant")
+  }
+  
   return (
     <div className="timeline-item" id={id}>
         <div className="timeline-item-content">
@@ -25,7 +29,7 @@ useEffect(() => {
                     {link.text}
                 </a>
             )}
-            <span className="circle" data-aos="flip-up">
+            <span className="circle" data-aos="flip-up" onClick= {handleMessage}>
             Message Delivered
             </span>
         </div>

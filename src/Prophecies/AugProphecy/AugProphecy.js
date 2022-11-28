@@ -20,7 +20,7 @@ export default function AugProphecy() {
             <h1 className="AugHeader">AUGUST MESSAGES</h1>
          </div>
          
-         <div data-aos="zoom-in" className="cards">
+         <div data-aos="flip-right" className="cards">
                {AugData.map((prophecies)=>{
                  return (
                   <ProphecyCard
